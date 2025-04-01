@@ -5,6 +5,7 @@
 :root {
     font-size: 16px;
     --vit: #F7F5F1;
+    --beigeishfarg: #EEEAE5;
 }
 
 body {
@@ -27,7 +28,7 @@ main {
     top: 0;
     width: 100vw;
     height: 4rem;
-    background: beige;
+    background: var(--beigeishfarg);
     transition: 200ms ease;
 }
 
@@ -51,6 +52,7 @@ main {
 }
 
 .link-text {
+    display: none;
     margin-left: 1rem;
 }
 
@@ -83,7 +85,7 @@ main {
     .nav-link {
         justify-content: start;
     }
-    .navbar:hover .linktext {
+    .navbar:hover .link-text {
         display: block;
     }
 }
