@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+	<title>close</title>
+	<style>
+		.s0 { fill: none;stroke: #000000 } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m16 16l32 32"/>
+	<path fill-rule="evenodd" class="s0" d="m48 16l-32 32"/>
+</svg>
