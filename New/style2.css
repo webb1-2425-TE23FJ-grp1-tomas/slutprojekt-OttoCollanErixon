@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 16px;
+    --vit: #F7F5F1;
+    --menybeige: #EAD4C3;
+    --bakgrundbeige: #F3E7DD; 
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -10,7 +17,15 @@ img {
 
 body {
     margin: 0; 
-    padding: 10px; 
+    background-color: var(--bakgrundbeige);
+}
+
+header {
+    background-color: beige;
+}
+
+nav {
+    padding: 10px;
 }
 
 .menu {
@@ -26,8 +41,7 @@ body {
 }
 
 .menu-item:first-of-type {
-    display: flex;
-    justify-content: flex-end;
+    list-style-type: none;
 }
 
 .menu-link {
@@ -44,6 +58,7 @@ body {
 #menu-close {
     padding: 5px;
     cursor: crosshair;
+
 }
 
 @media screen and (min-width: 501px) {
@@ -51,11 +66,11 @@ body {
         display: flex;
         flex-direction: row;
     }
-    #menu-open {
+    #menu-open,
+    #menu-close {
         display: none;
     }
-    #menu-close {
-        padding: 5px;
-        cursor: crosshair;
-    }
 }
+
+
+

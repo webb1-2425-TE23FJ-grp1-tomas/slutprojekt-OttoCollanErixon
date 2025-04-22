@@ -1,5 +1,5 @@
-const btnOpenMenu = document.querySelector("#menu-open");
-const btnCloseMenu = document.querySelector("menu-close");
+const btnOpenMenu = document.getElementById("menu-open");
+const btnCloseMenu = document.getElementById("menu-close");
 const menu = document.querySelector(".menu");
 
 function openMenu(event) {
@@ -12,4 +12,4 @@ function closeMenu(event) {
     menu.style.display = "none";
     btnOpenMenu.style.display = "block";
 }
-btnCloseMenu.addEventListener("click", openClose);
+btnCloseMenu.addEventListener("click", closeMenu);
