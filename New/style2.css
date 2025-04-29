@@ -42,6 +42,15 @@ nav {
 
 .menu-item:first-of-type {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
 }
 
 .menu-link {
@@ -58,8 +67,8 @@ nav {
 #menu-close {
     padding: 5px;
     cursor: crosshair;
-
 }
+
 
 @media screen and (min-width: 501px) {
     .menu {
