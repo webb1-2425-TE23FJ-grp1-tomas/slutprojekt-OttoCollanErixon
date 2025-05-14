@@ -71,6 +71,15 @@ nav {
     cursor: crosshair;
 }
 
+#hamburger-item {
+    width:fit-content;
+}
+
+#li-searchbar {
+    list-style-type:none; 
+    width: fit-content; 
+    
+}
 
 @media screen and (min-width: 501px) {
     .menu {
