@@ -137,6 +137,8 @@ nav {
 .main {
     display: flex;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .shopping-section-1 {
@@ -190,4 +192,15 @@ a {
 
 .shopping-item-txt, .shopping-item-pris{
     padding-left: 10px;
+}
+
+
+
+
+#shopping-item-rubrik {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    place-items: center;
 }
