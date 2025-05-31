@@ -18,7 +18,7 @@ img {
 img.plagg {
     width: 100%;
     height:auto;
-    display:block;
+    /* display:block; */
 }
 
 body {
@@ -47,7 +47,9 @@ nav {
     width: 100vw;
 }
 
-
+ul {
+    padding:0px;
+}
 
 .menu-item:first-of-type {
     list-style-type: none;
@@ -104,7 +106,7 @@ nav {
 .main {
     display: flex;
     justify-content: center;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
 }
 
